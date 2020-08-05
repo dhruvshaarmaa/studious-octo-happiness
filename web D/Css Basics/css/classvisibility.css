@@ -1,0 +1,22 @@
+
+.continent{
+    font-weight: bold;
+    color: brown;
+}
+.continent .country{
+    visibility: hidden;
+    background-color: lightskyblue;
+}
+.country .states{
+    visibility: hidden;
+    background-color: lightcyan;
+}
+.continent:hover .country{
+    visibility: visible;
+}
+ol>li{
+    color:purple;
+}
+.country:hover .states{
+    visibility: visible;
+}

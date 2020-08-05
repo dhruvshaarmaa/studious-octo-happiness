@@ -1,0 +1,17 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue ;
+    margin: 50px;
+}
+@media (min-width:600px)
+{
+    .box{
+        background-color: red;
+    }
+}
+@media (min-width:900px){
+    .box{
+        background-color: green;
+    }
+}

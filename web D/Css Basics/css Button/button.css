@@ -1,0 +1,19 @@
+.button{
+    background-color: red;
+    font-size: 20pt;
+    margin: 100px;
+    padding: 20px;
+    height: 50pt;
+    width: 100pt;
+    box-shadow: grey 10px 10px 10px;
+}
+.button:hover{
+    transform: translate(-10px,-10px);
+    transition: 0.5s;
+    box-shadow: grey 20px 20px 10px;
+}
+.button:active{
+    transform: translate(5px,5px);
+    transition: 0.3s;
+    box-shadow: grey 5px 5px 5px;
+}

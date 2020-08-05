@@ -1,0 +1,22 @@
+.continent{
+    font-weight: bold;
+    color: brown;
+}
+.country{
+    color: darkblue;
+}
+.states{
+    color: darkgreen;
+}
+ol>li>ol{
+    visibility: hidden;
+}
+ol>li:hover>ol{
+    visibility: visible;
+}
+ol>li>ul{
+    visibility: hidden;
+}
+ol>li:hover>ul{
+    visibility: visible;
+}

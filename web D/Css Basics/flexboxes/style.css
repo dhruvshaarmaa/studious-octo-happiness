@@ -1,0 +1,24 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    /* alignment of items in a row horizontally*/
+    justify-content: space-evenly;
+    /*vertical alignment of items in a row */
+    align-items: center;
+    /* vertical alignment of all rows together*/
+    align-content: space-between;
+}
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    font-size: 20pt;
+    margin: 10px;
+    border: dotted purple 2px;
+    text-align: center;
+    line-height: 50px;
+}

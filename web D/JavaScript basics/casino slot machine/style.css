@@ -1,0 +1,64 @@
+#spin{
+    text-align: center;
+    font-size: 25pt;
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+    width: 100px;
+    margin-left: 500px;
+    margin-bottom: 25px;
+}
+#result{
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+:root{
+    --speed: 2; 
+}
+.heading{
+    text-align: center;
+    font-size: 50pt;
+    color: darkblue;
+}
+#inpspeed{
+    font-size: 30pt;
+    width: 400px;
+    margin-left: 350px;
+}
+.machine{
+    display: flex;
+    background-color: peru;
+    height: 300px;
+    width: 900px;
+    margin: 100px;
+    border: dashed darkblue 4px;
+}
+.slot{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    background-color: beige;
+    margin: 20px;
+    border: solid darkmagenta;
+    font-size: 100px;
+    line-height: 250px;
+    overflow: hidden;
+}
+.slot > .value{
+    animation-name: spinning;
+    animation-iteration-count: infinite;
+    animation-duration: calc(1s/var(--speed));
+}
+@keyframes spinning{
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(200px);
+    }
+}

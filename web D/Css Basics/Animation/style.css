@@ -1,0 +1,38 @@
+.container{
+    background-color: lightpink;
+    margin: 100px;
+    height: 700px;
+    width: 500px;
+    padding: 20px;
+}
+.items{
+    background-color:green;
+    display: inline-block;
+    height: 100px;
+    width: 60px;
+    margin: 30px;
+    animation: bounce ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: ease-out;
+}
+.three{
+    animation-timing-function: linear;
+}
+@keyframes bounce{
+    0%{
+
+    }
+    50%{
+        transform: translateY(500px);
+    }
+    100%{
+
+    }
+}

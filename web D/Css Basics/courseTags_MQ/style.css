@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    margin: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: bisque;
+}
+.tag{
+    text-align: center;
+    margin: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.tag>h1{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div>h3{
+    margin: 40px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    color: whitesmoke;
+    background-color: orangered;
+}
+@media (max-width: 1900px)
+{
+    .container{
+        margin: 60px;
+    }
+    .tag{
+        margin: 130px;
+    }
+}
+@media (max-width: 1800px)
+{
+    .container{
+        margin: 60px;
+    }
+    .tag{
+        margin: 110px;
+    }
+}
+@media (max-width: 1700px)
+{
+    .container{
+        margin: 50px;
+    }
+    .tag{
+        margin: 100px;
+    }
+}
+@media (max-width: 1600px)
+{
+    .container{
+        margin: 50px;
+    }
+    .tag{
+        margin: 80px;
+    }
+}
+@media (max-width: 1500px)
+{
+    .container{
+        margin: 50px;
+    }
+    .tag{
+        margin: 40px;
+    }
+}
+@media (max-width: 1400px)
+{
+    .container{
+        margin: 50px;
+    }
+    .tag{
+        margin: 25px;
+    }
+}
+@media (max-width: 1300px)
+{
+    .container{
+        margin: 40px;
+    }
+    .tag{
+        margin: 20px;
+    }
+}
+@media (max-width: 1200px)
+{
+    .container{
+        margin: 40px;
+    }
+    .tag{
+        margin: 20px;
+    }
+}
+@media (max-width: 700px)
+{
+    .container{
+        margin: 0px;
+    }
+    .tag{
+        margin: 20px;
+    }
+}
